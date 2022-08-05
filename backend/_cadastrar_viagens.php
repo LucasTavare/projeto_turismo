@@ -13,7 +13,13 @@ try{
     $valor = $_POST['valor'];
     $desc = $_POST['desc'];
 
-    $sql = "INSERT INTO tb_viagens (titulo,local,valor,desc)VALUES('$titulo','$local','$valor','$desc')"
+    $sql = "INSERT INTO tb_viagens(`titulo`,`local`,`valor`,`desc`)VALUES('$titulo','$local','$valor','$desc')";
+
+    $comando = $con ->prepare($sql);
+
+    $comando->execute();
+
+    echo "Cadastro realizado com sucesso!";
 
 }catch(PDOException $erro){
 
