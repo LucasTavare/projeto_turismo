@@ -53,3 +53,24 @@ text-align: center;
     font-weight: bold;
 }
 
+#tabela{
+    display: grid;
+    margin: 20px auto;
+}
+
+#tabela tr td, #tabela tr th{
+    padding: 10px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.tabela-viagens, th, td{
+    border: 1px solid black !important;
+    text-align: left;
+}
+
+tr:hover{
+    background-color: aliceblue;
+}
