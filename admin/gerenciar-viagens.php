@@ -58,7 +58,11 @@ try{
                     <td><?php echo $d['local']?></td>
                     <td><?php echo $d['valor']?></td>
                     <td><?php echo $d['desc']?></td>
-                    <td>Alterar</td>
+                    <td>
+                        <a href="../admin/alterar-viagens.php?id=<?php echo $d['id']?>">
+                            Alterar
+                        </a>
+                    </td>
                     <td>
                         <a href="../backend/deletar-viagens.php?id=<?php echo $d['id']?>">
                             Deletar

@@ -13,7 +13,7 @@ try{
 
     $comando -> execute();
 
-    header('location:', '../admin/gerenciar-viagens.php');
+    header('location: ../admin/gerenciar-viagens.php');
 
     $con = null;
 
