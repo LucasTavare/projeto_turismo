@@ -6,7 +6,7 @@ try{
 
     $senha = $_POST['senha'];
 
-    $sql = "SELECT * FROM tb_login WHERE email = '$usuario' AND senha = '$senha';";
+    $sql = "SELECT * FROM tb_login WHERE email = '$usuario' AND BINARY senha = '$senha';";
 
     $comando = $con->prepare($sql);
 
