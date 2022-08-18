@@ -38,6 +38,10 @@ try {
     <div id="container">
         <h3>Alterar Viagens</h3>
 
+        <hr>
+            <a href="../admin/gerenciar-viagens.php">Gerenciar</a>
+        <hr>
+
         <form action="../backend/_alterar_viagens.php" method="post">
             <div>
                 <label for="id">ID</label>

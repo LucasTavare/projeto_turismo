@@ -1,0 +1,62 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    background-image: url('../img/fundo\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    align-items: center;
+}
+
+#container{
+    display: grid;
+    margin: 0 auto;
+    background-color: white;
+    width: 80%;
+    margin-top: 40px;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 3px 3px 2px 1px #Ccc;
+}
+
+#grid-viagens{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+figure{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    background-color: white;
+    box-shadow: 1px 2px 2px 1px #Ccc;
+}
+
+h3{
+    text-align: center;
+    font-size: 2em;
+}
+
+img{
+    width: 100%;
+}
+
+h5,h4,small{
+    padding-left: 10px;
+}
+
+.btn-comprar{
+    padding: 10px;
+    background-color: chartreuse;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+    box-shadow: 1px 2px 2px 1px #Ccc;
+}

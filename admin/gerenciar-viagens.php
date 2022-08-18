@@ -21,9 +21,6 @@ try{
 }
 
 ?>
-
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -37,6 +34,12 @@ try{
 <body>
     <div id="container">
         <h3>Gerenciar Viagens</h3>
+
+        <hr>
+
+        <a href="cadastrar_viagens.html">Cadastrar Viagens</a>
+
+        <hr>
 
         <div id="tabela">
             <table class="tabela-viagens">
