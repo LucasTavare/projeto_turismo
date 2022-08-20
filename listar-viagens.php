@@ -41,7 +41,7 @@ try {
             ?>
                 <figure class="figure-viagens">
 
-                    <img class="img-viagens" src="img/bitiura.jpg" alt="Imagem da Viagem">
+                    <img class="img-viagens" src="img/upload/<?php echo $d['imagem']?>" alt="Imagem da Viagem">
                     <figcaption class="figcaption-viagens">
                         <h4><?php echo $d['titulo'] ?></h4>
                         <h5><?php echo $d['local'] ?></h5>

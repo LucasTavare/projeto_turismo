@@ -8,7 +8,10 @@
 #container{
     display: grid;
     margin: 0 auto;
-    background-color: azure;
+    background-image: url('../img/fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     align-items: center;
 }
@@ -19,9 +22,7 @@
     margin: 0 auto;
     height: 400px;
     align-items: center;
-    box-shadow: 2px 3px 0px 3px rgb(221, 221, 221);
-    border-left: 1px solid rgb(105, 105, 105);
-    border-top: 1px solid black;
+    box-shadow: 0px 3px 1px 0px rgb(61, 61, 61);
 }
 
 form div{
@@ -46,14 +47,20 @@ input{
     display: grid;
     margin: 0 auto;
 }
+
 .button{
-    background-color:darkgreen;
-    font-weight: bold;
-    color:black;
+    color: aliceblue;
+    background-color: steelblue;
+    font-weight: bolder;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
     display: grid;
     margin: 0 auto;
-    width: 100px;
-    box-shadow: 0px 3px 2px 1px rgb(223, 223, 223);
+    margin-bottom: 20px;
+    box-shadow: 1px 2px 2px 1px #Ccc;
 }
 
 h3{

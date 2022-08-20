@@ -28,18 +28,16 @@ try{
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-cadastrar.css">
 
 </head>
 <body>
     <div id="container">
         <h3>Gerenciar Viagens</h3>
 
-        <hr>
 
-        <a href="cadastrar_viagens.html">Cadastrar Viagens</a>
+        <a class="mudar-pagina" href="cadastrar_viagens.html"><- Cadastrar  Viagens</a>
 
-        <hr>
 
         <div id="tabela">
             <table class="tabela-viagens">
