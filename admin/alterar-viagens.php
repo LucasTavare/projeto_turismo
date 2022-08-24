@@ -41,7 +41,7 @@ try {
         <a class="mudar-pagina" href="../admin/gerenciar-viagens.php">
             <- Gerenciar Viagens</a>
                 <div id="formulario">
-                    <form action="../backend/_alterar_viagens.php" method="post">
+                    <form action="../backend/_alterar_viagens.php" method="post" enctype="multipart/form-data">
                         <div>
                             <label for="id">ID</label>
                             <input type="text" name="id" id="id" value="<?php echo $dados[0]['id'] ?>" readonly>
@@ -57,6 +57,13 @@ try {
                         <div>
                             <label for="valor">Valor</label>
                             <input type="text" name="valor" id="valor" value="<?php echo $dados[0]['valor'] ?>">
+                        </div>
+                        <div class="img-troca">
+                            <img class="imagens-alterar" src="../img/upload/<?php echo $dados[0]['imagem']?>" alt="imagem da viagem">
+                        </div>
+                        <div >
+                            <label for="imagem">Imagem</label>
+                            <input type="file" name="imagem" id="imagem">
                         </div>
                         <div>
                             <label for="desc">Descrição</label>

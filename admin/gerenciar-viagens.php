@@ -27,7 +27,7 @@ try{
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gerenciar Viagens</title>
     <link rel="stylesheet" href="../css/style-cadastrar.css">
 
 </head>
@@ -36,7 +36,8 @@ try{
         <h3>Gerenciar Viagens</h3>
 
 
-        <a class="mudar-pagina" href="cadastrar_viagens.html"><- Cadastrar  Viagens</a>
+        <p><a class="mudar-pagina" href="cadastrar_viagens.html"><- Cadastrar  Viagens</a><a class="mudar-pagina voltar" href=""> Sair -></a></p> 
+        
 
 
         <div id="tabela">
