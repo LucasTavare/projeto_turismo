@@ -19,7 +19,13 @@ try{
     // verifica se existem registros dentro da variavel dados
 
     if($dados != null){
+        // inicia a sessão
 
+        session_start();
+        
+        $_SESSION['login'] = $usuario;
+
+        var_dump($_SESSION['email']);
 
         header('location: ../admin/gerenciar-viagens.php');
     }else{
